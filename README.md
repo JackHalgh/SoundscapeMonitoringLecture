@@ -6,9 +6,7 @@
 
 - [Part 1: Ecoacoustic equipment and survey design](#ecoacoustic-equipment-and-survey-design)
 - [Part 2: Acoustic indices](#acoustic-indices)
-- [Part 3: Data handling and manipulation](#data-handling-and-manipulation)
-- [Part 4: Data visulisation](#data-visulisation)
-- [Part 5: Dealing with spatial replication](#dealinig-with-spatial-replication)
+- [Part 3: Worked examples in R](#worked-examples-in-r)
 
 ### Ecoacoustic equipment and survey design
 
@@ -70,4 +68,6 @@ Many different types of acoustic indcies exist, however, here is a list of the m
 | Normalized difference soundscape index (NDSI) | Seeks to “estimate the level of anthropogenic disturbance on the soundscape by computing the ratio of human-generated (anthrophony) to biological (biophony) acoustic components found in field collected sound samples” (Kasten, Gage, Fox, & Joo, 2012)                                                                 | Birds and terrestrial biota (on an island in Twin Lakes, MI, United States)                        | Kasten et al. (2012)                                      |
 
 Reference: Greenhalgh, J. A., Genner, M. J., Jones, G., & Desjonquères, C. (2020). The role of freshwater bioacoustics in ecological research. Wiley Interdisciplinary Reviews: Water, 7(3), e1416. https://doi.org/10.1002/wat2.1416  
+
+### Worked examples in R
 
