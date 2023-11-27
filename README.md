@@ -60,7 +60,7 @@ Below is an example of a single sound wave (left) and the Fast Fourier Transform
 ![FFT example](https://github.com/JackHalgh/SoundscapeMonitoringLecture/assets/74665965/17c8c30c-7554-44e6-a53c-239129c56daf)
 
 Here is an example of a spectrogram containing two different species of water boatman recorded in a lake near Bristol. 
-![Water boatman spectrogram](https://github.com/JackHalgh/SoundscapeMonitoringLecture/assets/74665965/c4523c4c-8494-4e1b-89a3-8d63d55e5a5a)
+![Water boatman spectrogram](https://github.com/JackHalgh/SoundscapeMonitoringLecture/assets/74665965/fe32c880-2bdd-491c-88c5-16b7a9b0c28e)
 
 ###  Acoustic indices 
 
