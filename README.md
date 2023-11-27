@@ -71,3 +71,23 @@ Reference: Greenhalgh, J. A., Genner, M. J., Jones, G., & Desjonquères, C. (202
 
 ### Worked examples in R
 
+```
+#install and load packages
+install.packages("tuneR")
+install.packages("seewave")
+library(tuneR)
+library(seewave)
+
+#import water boatman data
+Water_boatman <- readWave("Water boatman.wav")
+
+#investigate signal
+meanspec(Water_boatman)
+
+#plot water boatman spectrogram
+spectro(Water_boatman, wl=1200, flim = c(0,6), collevels = seq(-25,0))
+```
+
+
+
+
