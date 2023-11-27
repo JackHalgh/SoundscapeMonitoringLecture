@@ -5,8 +5,9 @@
 ### Contents 
 
 - [Part 1: Ecoacoustic equipment and survey design](#ecoacoustic-equipment-and-survey-design)
-- [Part 2: Acoustic indices](#acoustic-indices)
-- [Part 3: Worked examples in R](#worked-examples-in-r)
+- [Part 2: Spectrograms](#spectrograms)
+- [Part 3: Acoustic indices](#acoustic-indices)
+- [Part 4: Worked examples in R](#worked-examples-in-r)
 
 ### Ecoacoustic equipment and survey design
 
