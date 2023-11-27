@@ -52,11 +52,11 @@ You can also modify the sample rate (kHz), gain (dB), and other more detailed pa
 
 #### What are spectrograms?
 
-A spectrogram is a visual representation of the spectrum of frequencies of a signal as it varies with time. As a result, spectrograms are a useful tool for ecologists in the identification of species-specific sounds that produce unique spectrograms. 
+A spectrogram is a visual representation of the spectrum of frequencies of a signal as it varies with time. Spectrograms are a useful tool for ecologists in the identification of species-specific sounds that produce unique acoustic signals. 
 
-Spectrograms are calculated using the "Fast Fourier Transform" (FFT), an important measurement method in the science of audio and acoustics measurement. Put simply, the algorithm converts a signal into individual spectral components (frequencies) and thereby provides frequency information about the signal.
+Spectrograms are calculated using the "Fast Fourier Transform" (FFT), an important measurement method in the science of audio and acoustics measurement. Put simply, the algorithm converts an acoustic signal into individual spectral components (frequencies) and thereby provides frequency information about the signal over time. 
 
-Below is an example of a single sound wave (left) and the Fast Fourier Transformation (right) that considers all of the spectral components (frequencies) in a sound file over time. Sounds with a higher frequency have a higher wavelength. 
+Below is an example of a single sound wave (left) and the Fast Fourier Transformation (right) that considers all of the spectral components (frequencies) in a sound file over time. Sounds with a higher frequency have a higher wavelength, sounds with lower frequencies have a lower wavelength.  
 ![FFT example](https://github.com/JackHalgh/SoundscapeMonitoringLecture/assets/74665965/17c8c30c-7554-44e6-a53c-239129c56daf)
 
 Here is an example of a spectrogram containing two different species of water boatman recorded in a lake near Bristol. 
