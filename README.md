@@ -50,9 +50,13 @@ You can also modify the sample rate (kHz), gain (dB), and other more detailed pa
 
 ###  Spectrograms
 
-A spectrogram is a visual representation of the spectrum of frequencies of a signal as it varies with time. 
+A spectrogram is a visual representation of the spectrum of frequencies of a signal as it varies with time. As a result, spectrograms are a useful tool for ecologists in the identification of species-specific sounds that produce unique spectrograms. 
+
+Here is a spectrogram containing two different species of water boatman. 
 
 ![Water boatman spectrogram](https://github.com/JackHalgh/SoundscapeMonitoringLecture/assets/74665965/c4523c4c-8494-4e1b-89a3-8d63d55e5a5a)
+
+Spectrograms are calculated using the "Fast Fourier Transform" (FFT), an important measurement method in the science of audio and acoustics measurement. Put simply, the algorithm converts a signal into individual spectral components (frequencies) and thereby provides frequency information about the signal.
 
 
 ###  Acoustic indices 
