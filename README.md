@@ -84,6 +84,10 @@ Reference: Greenhalgh, J. A., Genner, M. J., Jones, G., & Desjonquères, C. (202
 
 ### Worked examples in R
 
+Now we're going to work through some practical examples of what we've been talking about in R. 
+
+#### Importing audio files and creating spectrograms
+
 ```
 #install and load packages
 install.packages("tuneR")
@@ -101,6 +105,16 @@ meanspec(Water_boatman)
 spectro(Water_boatman, wl=1200, flim = c(0,6), collevels = seq(-25,0))
 ```
 
+#### Calculating acoustic indices and visualising the data
 
+```
+#install and load packages
+install.packages("soundecology")
+library(soundecology)
+
+#
+multiple_sounds("name_of_your_respository", resultfile = "name_of_your_output.csv",
+                soundindex = "bioacoustic_index")
+```
 
 
