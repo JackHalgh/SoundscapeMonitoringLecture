@@ -47,6 +47,13 @@ AudioMoth configuration app showing: (a) recording parameters, and b) recording 
 
 You can also modify the sample rate (kHz), gain (dB), and other more detailed parameters such as trigger type and filtering. These settings will largely be dictated by your research question. For example, high sample rates (>192 kHz) and selective trigger types are ideal for bat surveys, whereas mid-range sample rates (~48 kHz) and no triggers are ideal for soundscape monitoring.        
 
+###  Spectrograms
+
+A spectrogram is a visual representation of the spectrum of frequencies of a signal as it varies with time. 
+
+![Water boatman spectrogram](https://github.com/JackHalgh/SoundscapeMonitoringLecture/assets/74665965/c4523c4c-8494-4e1b-89a3-8d63d55e5a5a)
+
+
 ###  Acoustic indices 
 
 #### What are acoustic indcies?
