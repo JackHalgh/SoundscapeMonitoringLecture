@@ -56,7 +56,7 @@ A spectrogram is a visual representation of the spectrum of frequencies of a sig
 
 Spectrograms are calculated using the "Fast Fourier Transform" (FFT), an important measurement method in the science of audio and acoustics measurement. Put simply, the algorithm converts a signal into individual spectral components (frequencies) and thereby provides frequency information about the signal.
 
-Below is an example of a single sound wave (left) and the Fast Fourier Transformation (right) that considers all of the spectral components (frequencies) in a sound file over time. 
+Below is an example of a single sound wave (left) and the Fast Fourier Transformation (right) that considers all of the spectral components (frequencies) in a sound file over time. Sounds with a higher frequency have a higher wavelength. 
 ![FFT example](https://github.com/JackHalgh/SoundscapeMonitoringLecture/assets/74665965/17c8c30c-7554-44e6-a53c-239129c56daf)
 
 Here is an example of a spectrogram containing two different species of water boatman recorded in a lake near Bristol. 
