@@ -115,9 +115,36 @@ spectro(Water_boatman, wl=1200, flim = c(0,6), collevels = seq(-25,0))
 install.packages("soundecology")
 library(soundecology)
 
-#
-multiple_sounds("name_of_your_respository", resultfile = "name_of_your_output.csv",
+#calculate the bioacoustic index for unmanaged overgrown ponds
+multiple_sounds("Unmanaged",
+                resultfile = "Unmanaged Ponds.csv",
                 soundindex = "bioacoustic_index")
+
+#calculate the bioacoustic index for restored open-canopy ponds
+multiple_sounds("Restored",
+                resultfile = "Restored Ponds.csv",
+                soundindex = "bioacoustic_index")
+
+#load combined data
+Ponds <- read.table("All sites.txt", header=T, sep = "\t")
+attach(Ponds)
+
+#install and load packages 
+install.packages("ggplot2")
+library(ggplot2)
+
+#set management type as a factor (catagorical variable)
+Ponds$Management <- as.factor(Ponds$Management)
+
+#define your colours 
+custom_colors <- c("skyblue", "lightgreen")
+
+#plot the data
+ggplot(Ponds, aes(x = Management, y = Value, fill = Management)) +
+  geom_boxplot(fill=custom_colors) + geom_jitter() +
+  labs(x = "Management type",
+       y = "Bioacoustic index",
+       fill = "Management type") + theme_bw()
 ```
 
 
