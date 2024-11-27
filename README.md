@@ -1,6 +1,6 @@
 # Soundscape Monitoring Lecture: University College London
 ![Soundscape monitoring lecture](https://github.com/JackHalgh/SoundscapeMonitoringLecture/assets/74665965/4d840b69-f1b8-4af4-a458-5e694f4fd8ea)
-### By [Jack A. Greenhalgh](https://www.jack-greenhalgh.com/), December 2023. 
+### By [Jack A. Greenhalgh](https://www.jack-greenhalgh.com/), December 2024. 
 
 ### Contents 
 
